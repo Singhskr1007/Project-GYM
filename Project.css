@@ -1,0 +1,134 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+
+}
+
+.left img {
+    width: 136px;
+}
+.left img:hover
+{
+    transform: scale(1.1);
+}
+
+.left div {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chartreuse;
+}
+
+.mid {
+    width: 33%;
+    display: block;
+    margin: 30px auto;
+}
+
+.right {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 16px
+    
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(25, 104, 138);
+    transform: scale(1.1);
+    
+}
+
+.btn {
+    font-family: 'Caprasimo', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'Tilt Prism', cursive;
+    margin: 0px 9px;
+    padding: 15px 30px;
+    color: white;
+    background-color: black;
+    border: 3px solid grey;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(33, 33, 33);
+    color: yellow;
+    transform: scale(1.2);
+}
+
+.btn:active {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.container {
+    margin: 130px 100px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 10px;
+    color:rgb(138, 33, 33);
+    font-family: 'Caprasimo', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'Tilt Prism', cursive;
+}
+.container:hover
+{
+    transform: scale(1.1);
+}
+
+
+.form-group input {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin: 12px auto;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.container button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
